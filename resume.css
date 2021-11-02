@@ -1,0 +1,59 @@
+
+.img {
+    border-radius: 50%;
+}
+.intro {
+    text-align: center;
+    grid-area: "intro";
+    border: 1px solid rgb(0, 0, 8);
+    height: 200px;
+    gap: 2px;
+    margin-left: 10px;
+}
+.education {
+    margin-left: 10px;
+    grid-area: "education";
+    border: 1px solid rgb(0, 0, 8);
+    margin-right: 10px;
+}
+.splecialities {
+    grid-area: "specialities";
+    margin-top: -100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 8);
+}
+.experiance {
+    margin-right: 20%;
+    margin-top: 10px;
+    grid-area: "experiance";
+    margin-left: 10px;
+    border: 1px solid rgb(0, 0, 8);
+}
+.creativeskills {
+    grid-area: "specialities";
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid rgb(0, 0, 8);
+}
+.softwareskills {
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+    grid-area: "experiance";
+    border: 1px solid rgb(0, 0, 8);
+}
+
+
+.maingrid {
+grid-template-areas: "intro education"
+                    "specialities experiance";
+display: grid;
+margin:auto;
+color:black
+
+}
